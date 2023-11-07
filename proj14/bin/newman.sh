@@ -1,3 +1,3 @@
 #!/bin/bash
 
-newman run https://www.getpostman.com/collections/155d834872acb2acab87 --color on --verbose
+newman run https://raw.githubusercontent.com/taniauvya/t123/main/proj14/col.json --color on --verbose
