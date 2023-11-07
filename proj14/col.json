@@ -672,7 +672,7 @@
                   "    const users = utils.getData(pm.response.json());\r",
                   "    const email = pm.collectionVariables.get(\"user_email_second\");\r",
                   "    const user = users?.find((item) => item.email === email);\r",
-                  "    console.log(user);\r",
+                  "    console.log(500500, user);\r",
                   "\r",
                   "    pm.expect(user.name).to.eql(pm.collectionVariables.get(\"user_name_default\"));\r",
                   "    pm.expect(user.about).to.eql(pm.collectionVariables.get(\"user_about_default\"));\r",
