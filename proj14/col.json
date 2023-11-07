@@ -1893,7 +1893,7 @@
           "        return keys.length === 1 && typeof firstKeyValue === 'object' ? firstKeyValue : jsonData;",
           "    },",
           "    generateSchemaValidationError: (source, key, jsonData) => {",
-          "        console.log(jsonData);",
+          "        console.log(123123, jsonData);",
           "        const validationProps = {",
           "            properties: {",
           "                source: {",
@@ -1949,6 +1949,7 @@
           "            schema.properties.validation = {...schema.properties.validation, ...validationProps}",
           "        }",
           "        ",
+          "        console.log(123200, schema);",
           "        return schema;",
           "    }",
           "}"
